@@ -55,7 +55,7 @@ li {
 ヘッダー
 -------------------------------------------*/
 #header {
-  height: 100px;
+  height: 130px;
   padding: 40px 0 0 50px;
 }
 #header .site-title {
@@ -550,7 +550,7 @@ infinite：アニメーションの繰り返し回数(無限に繰り返す)
 linear：アニメーションの変化（開始から終了まで一定に変化）
 */
 #summary {
-  background: url("../img/bg.gif") repeat;
+  background: url("../img/puu.jpg") repeat;
   animation: fall 10s infinite linear;
   padding: 60px 0;
   margin-bottom: 120px;
@@ -565,7 +565,7 @@ linear：アニメーションの変化（開始から終了まで一定に変�
     background-position: 0 0;
   }
   100% {
-    background-position: -700px 700px;
+    background-position: 0px 700px;
   }
 }
 #summary .menu {
@@ -598,6 +598,15 @@ linear：アニメーションの変化（開始から終了まで一定に変�
   display: block;
   font-size: 1.125rem;
   margin-bottom: 30px;
+}
+
+.section-titlea {
+  color: rgb(0, 0, 0);
+  background-color: #ffffffc0;
+  font-size: 2.25rem;
+  margin-bottom: 100px;
+  text-align: center;
+  position: relative;
 }
 
 /*-------------------------------------------
