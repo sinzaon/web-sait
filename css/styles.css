@@ -537,7 +537,18 @@ forwards：アニメーション終了時の状態をそのまま維持
     opacity: 1;
   }
 }
-
+/*------------------------------------------*/
+#syasin img {
+  width: 100%;
+  height: calc(100vh - 80px);
+  object-fit: cover;
+}
+.d {
+  position: relative;
+}
+.d h2 {
+  position: absolute;
+}
 /*-------------------------------------------
 Summary
 -------------------------------------------*/
