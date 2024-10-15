@@ -538,16 +538,27 @@ forwards：アニメーション終了時の状態をそのまま維持
   }
 }
 /*------------------------------------------*/
-#syasin img {
-  width: 100%;
-  height: calc(100vh - 80px);
-  object-fit: cover;
+#syasin {
+  margin-bottom: 120px;
 }
+#syasin img   {
+  width: 100%;
+height: calc(100vh - 80px);
+object-fit: cover;
+}
+
 .d {
   position: relative;
 }
 .d h2 {
   position: absolute;
+  bottom: 30px;
+  left: 50%;
+  font-size: 50px;
+  color:rgb(240, 240, 240);
+  border:1px dotted #000;
+  background-color: black;
+  font-family: font-family: 'Sacramento', cursive;
 }
 /*-------------------------------------------
 Summary
