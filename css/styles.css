@@ -554,17 +554,39 @@ forwards：アニメーション終了時の状態をそのまま維持
   position: absolute;
   top: 10%;     /* 上からの位置 */
   left: 5%;    /* 左からの位置 */
+  width: 40%;  /* 重ねる画像のサイズ */
+  height: auto;
+}
+.overlay-image1 {
+  position: absolute;
+  top: 10%;     /* 上からの位置 */
+  right: 5%;    /* 左からの位置 */
+  width: 30%;  /* 重ねる画像のサイズ */
+  height: auto;
+}
+.overlay-image2 {
+  position: absolute;
+  top: 40%;     /* 上からの位置 */
+left: 30%;    /* 左からの位置 */
+  width: 40%;  /* 重ねる画像のサイズ */
+  height: auto;
+}
+.overlay-image3 {
+  position: absolute;
+  top: 70%;     /* 上からの位置 */
+  left: 5%;    /* 左からの位置 */
   width: 30%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .d h3 {
+  
   font-size: 2.25rem;
   position: absolute;
   left: 10%;
   top: 87%;
-  color:rgb(240, 240, 240);
-  border:1px dotted #000;
-  background-color: black;
+  color:rgb(0, 0, 0);
+ 
+  
   font-family: font-family: 'Sacramento', cursive;
 }
 /*-------------------------------------------
