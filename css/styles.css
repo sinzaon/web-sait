@@ -538,23 +538,30 @@ forwards：アニメーション終了時の状態をそのまま維持
   }
 }
 /*------------------------------------------*/
-#syasin {
-  margin-bottom: 120px;
+.container {
+  position: relative;
+  width: 500px;  /* コンテナの幅を設定 */
 }
-#syasin img   {
-  width: 100%;
-height: calc(100vh - 80px);
-object-fit: cover;
-}
-
-.d {
+.d{
   position: relative;
 }
-.d h2 {
+.base-image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-image {
   position: absolute;
-  bottom: 30px;
-  left: 50%;
-  font-size: 50px;
+  top: 10%;     /* 上からの位置 */
+  left: 5%;    /* 左からの位置 */
+  width: 30%;  /* 重ねる画像のサイズ */
+  height: auto;
+}
+.d h3 {
+  font-size: 2.25rem;
+  position: absolute;
+  left: 10%;
+  top: 87%;
   color:rgb(240, 240, 240);
   border:1px dotted #000;
   background-color: black;
