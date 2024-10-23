@@ -585,6 +585,9 @@ left: 30%;    /* 左からの位置 */
   left: 10%;
   top: 87%;
   color:rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0.5px 6px #fff;
  
   
   font-family: font-family: 'Sacramento', cursive;
