@@ -581,9 +581,9 @@ left: 5%;    /* 左からの位置 */
 }
 .overlay-image4 {
   position: absolute;
-  top: 70%;     /* 上からの位置 */
-  left: 5%;    /* 左からの位置 */
-  width: 25%;  /* 重ねる画像のサイズ */
+  top: 315%;     /* 上からの位置 */
+  right: 10%;    /* 左からの位置 */
+  width: 30%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .d h3 {
