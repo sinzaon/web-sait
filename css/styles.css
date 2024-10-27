@@ -87,7 +87,7 @@ li {
 /* ハンバーガーメニューの線の設定（メニューが閉じている時） */
 .hamburger span {
   width: 50px;
-  height: 2px;
+  height: 2px ;
   background: #fff;
   position: absolute;
   left: 25px;
@@ -112,7 +112,7 @@ li {
 .hamburger.active span:nth-child(1) {
   top: 47px;
   left: 25px;
-  background: #fff;
+  background :#fff;
   transform: rotate(-45deg);
 }
 /* 2本目と3本目は重ねて45度回転 */
@@ -145,7 +145,7 @@ li {
 ハンバーガーメニューがクリックされた際に、jQueryで#naviにactiveクラスを追加して、
 メニューを表示させる。
 */
-#navi.active {
+#navi .active {
   opacity: 1;
   visibility: visible;
 }
@@ -191,6 +191,7 @@ li {
   background-color: #fff;
   color: #2a8dff;
 }
+
 
 /*-------------------------------------------
 Mainvisual
