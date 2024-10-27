@@ -613,6 +613,17 @@ left: 5%;    /* 左からの位置 */
   background-color: #333;
   text-shadow: none;
 }
+
+/*pv*/
+.pv {
+  display: flex;
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え */
+}
+.pv iframe{
+  width: 800px; /* 幅を指定 */
+  height: 450px; /* 高さを指定 */
+}
 /*-------------------------------------------
 Summary
 -------------------------------------------*/
