@@ -602,6 +602,17 @@ left: 5%;    /* 左からの位置 */
   text-decoration-color:rgba(0, 0, 0, 0.894) ;
   font-family: font-family: 'Sacramento', cursive;
 }
+
+.laaa{
+  color:#fef600;
+  background-color: #333;
+  text-shadow: none;
+}
+.baaa{
+  color:#88ff00;
+  background-color: #333;
+  text-shadow: none;
+}
 /*-------------------------------------------
 Summary
 -------------------------------------------*/
