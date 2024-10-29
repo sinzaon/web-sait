@@ -555,36 +555,36 @@ forwards：アニメーション終了時の状態をそのまま維持
 .overlay-image {
   position: absolute;
   top: 5%;     /* 上からの位置 */
-  left: 5%;    /* 左からの位置 */
+  left: 10%;    /* 左からの位置 */
   width: 40%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image1 {
   position: absolute;
   top: 5%;     /* 上からの位置 */
-  right: 5%;    /* 左からの位置 */
-  width: 35%;  /* 重ねる画像のサイズ */
+  right: 10%;    /* 左からの位置 */
+  width: 32%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image2 {
   position: absolute;
-  top: 50%;     /* 上からの位置 */
-left: 5%;    /* 左からの位置 */
+  top: 45%;     /* 上からの位置 */
+left: 10%;    /* 左からの位置 */
   width: 40%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image3 {
   position: absolute;
-  top: 50%;     /* 上からの位置 */
-  right: 5%;    /* 左からの位置 */
-  width: 35%;  /* 重ねる画像のサイズ */
+  top: 45%;     /* 上からの位置 */
+  right: 10%;    /* 左からの位置 */
+  width: 36%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image4 {
   position: absolute;
   top: 315%;     /* 上からの位置 */
   right: 10%;    /* 左からの位置 */
-  width: 30%;  /* 重ねる画像のサイズ */
+  width: 35%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .d h3 {
