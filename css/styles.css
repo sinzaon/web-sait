@@ -563,7 +563,7 @@ forwards：アニメーション終了時の状態をそのまま維持
   position: absolute;
   top: 5%;     /* 上からの位置 */
   right: 10%;    /* 左からの位置 */
-  width: 32%;  /* 重ねる画像のサイズ */
+  width: 34%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image2 {
@@ -577,7 +577,7 @@ left: 10%;    /* 左からの位置 */
   position: absolute;
   top: 45%;     /* 上からの位置 */
   right: 10%;    /* 左からの位置 */
-  width: 36%;  /* 重ねる画像のサイズ */
+  width: 34%;  /* 重ねる画像のサイズ */
   height: auto;
 }
 .overlay-image4 {
